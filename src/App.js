@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Nav>
         <GiKnifeFork />
-        <Logo to={"/"}>delicious</Logo>
+        <Logo to={"/"}>Woman's World Food Content</Logo>
       </Nav>
       {!process.env.REACT_APP_FOOD_API_KEY ? (
         <p>
